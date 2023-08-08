@@ -21,7 +21,7 @@ public class TestingApplication implements CommandLineRunner {
 
 	@Override
 	public void run(String... args) throws Exception {
-		Integer[] array =new Integer[]{10, 30, 20, 80, 60, 70, 50, 100, 90, 40};
+		Integer[] array =new Integer[]{99, 12, -8, 12, 34, 110, 0, 121, 66, -110 };
 		Integer[] descSortedArray = sortTheArray(array);
 		System.out.println("Reverse sorted array: ");
 		System.out.println(Arrays.toString(descSortedArray));
